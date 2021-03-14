@@ -1,0 +1,36 @@
+/*
+** Página Principal
+*/
+.main {
+	margin-top: 24px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.reset {
+	margin-top: 2rem;
+}
+.game-display {
+	padding: 1.2rem;
+}
+.error {
+	font-size: 1.2rem;
+	color: red;
+}
+/*
+** Páginas de Vitória/Derrota
+*/
+.defeat {
+	font-size: 2rem;
+	color: red;
+}
+.vitory {
+	font-size: 2rem;
+	color: seagreen;
+}
